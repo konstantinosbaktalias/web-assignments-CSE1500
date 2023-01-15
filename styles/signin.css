@@ -1,0 +1,21 @@
+.forms-container {
+    display: flex;
+}
+
+.login-container {
+    text-align: center;
+    width: 50%;
+    display: block;
+}
+
+.vertical-line {
+    background-color: #fff;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: x-large;
+}

@@ -19,3 +19,37 @@ html, body {
     padding: 1.5%;
     font-size: large;
 }
+
+input {
+    background-color: #4C566A;
+    color: #fff;
+    border: 0;
+    font-weight: bold;
+    padding: 20px;
+    width: 50%;
+    margin: 2%;
+    border-radius: 25px;
+    font-size: large;
+}
+
+input::placeholder {
+    color: #fff;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+.submit-button {
+    background-color: #D8DEE9;
+    padding: 2% 5%;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.submit-button:hover {
+    background-color: #9498a1;
+}
