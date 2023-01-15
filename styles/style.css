@@ -16,6 +16,30 @@ html, body {
 }
 
 .navbar-logo {
-    padding: 1.5%;
+    padding: 0.8%;
     font-size: large;
+}
+
+.navbar-logo a:link {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+ 
+.navbar-logo a:visited {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar-logo a:hover {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar-logo a:active {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
 }
