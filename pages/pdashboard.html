@@ -14,13 +14,18 @@
     </div>
     <div class="main-container">
         <div class="vertical">
-            <span style="font-size: x-large;"><b>From: </b></span><input type="text" placeholder="Start" name="user-id" id="start"><br>
-            <span style="font-size: x-large;"><b>Dest: </b></span><input type="text" placeholder="Destination" name="user-id" id="destination"><br>
-            <button class="search"><center><b>SEARCH</b></center></button>
+            <span style="font-size: x-large;"><b>From: </b></span><input type="text" placeholder="Start" name="start" id="start"><br>
+            <span style="font-size: x-large;"><b>Dest: </b></span><input type="text" placeholder="Destination" name="dest" id="dest"><br>
+            <button onclick="onClick()" class="search"><center><b>SEARCH</b></center></button>
+
+            <ul id="trips">
+                
+            </ul>
         </div>
         <div class="vertical">
-            <iframe width="100%" height="50%" frameborder="0" style="border:1" src="https://maps.google.com/?q=from-Eindhoven-to-Delft&output=embed"></iframe>
+            <iframe width="100%" height="50%" frameborder="0" id="map" style="border:1" src="https://maps.google.com/?q=delft&output=embed"></iframe>
         </div>
     </div>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>

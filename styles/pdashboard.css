@@ -33,3 +33,17 @@ input {
     font-size: 250%;
     color: #fff;
 }
+
+ul {
+    list-style-type: none;
+
+}
+
+.trip {
+    padding: 2% 3%;
+    margin: 2% 0;
+    color: #000;
+    width: 80%;
+    background-color: #D8DEE9;
+    border-radius: 20px;
+}
